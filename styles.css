@@ -20,6 +20,7 @@ img {
   padding:1.5em;
   max-width: 80%;
   margin:auto;
+  mix-blend-mode: exclusion;
 }
 
 h1 {
@@ -32,4 +33,18 @@ p {
 
 ul {
   text-align:left;
+}
+
+#bkg {
+  z-index: -1;
+  position:fixed;
+  width:100%;
+  height: 100vh;
+  top:0;
+}
+
+#bkg img{
+  width:100%;
+  height:100vh;
+  object-fit: cover;
 }
